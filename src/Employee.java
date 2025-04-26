@@ -16,7 +16,7 @@ public class Employee {
 
     public void setBaseSalary(int baseSalary) {
         if (baseSalary<=0)
-            throw new IllegalArgumentException("blala");
+            throw new IllegalArgumentException("basesalary can not be under 0");
         this.baseSalary = baseSalary;
     }
 
